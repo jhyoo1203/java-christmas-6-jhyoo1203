@@ -21,4 +21,8 @@ public class GiftEvent {
     public int getGiftQuantity() {
         return GIFT_AMOUNT;
     }
+
+    public int getGiftPrice() {
+        return menu.getPrice();
+    }
 }
